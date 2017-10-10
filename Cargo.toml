@@ -109,6 +109,15 @@ name = "parity"
 [profile.dev]
 panic = "abort"
 
+[profile.test]
+panic = "abort"
+
+[profile.doc]
+panic = "abort"
+
+[profile.bench]
+panic = "abort"
+
 [profile.release]
 debug = false
 lto = false
